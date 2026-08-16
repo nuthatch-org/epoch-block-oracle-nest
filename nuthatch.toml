@@ -1,0 +1,17 @@
+[nest]
+name = "epoch-block-oracle-nest"
+chain = "arbitrum-one"
+chain_id = 42161
+rpc_urls = [
+    "https://arb1.arbitrum.io/rpc",
+]
+schema_version = 1
+
+[[contracts]]
+alias = "data_edge"
+address = "0x633bb9790d7c4c59991cebd377c0ed6501a35ebe"
+start_block = 53564458
+abi = "abis/data_edge.json"
+# EventfulDataEdge emits its protocol message as one packed bytes payload. Nuthatch retains that
+# canonical payload now; semantic EBO message decoding is deliberately a separate release gate.
+events = ["Log"]
