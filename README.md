@@ -11,5 +11,7 @@ nuthatch init --from https://github.com/nightswatchhq/epoch-block-oracle-nest
 transaction identity. It is installable as a raw, verifiable message feed now.
 
 It is not yet an EBO semantic replacement: packed message decoding into epoch-block attestations
-and fixed-block parity fixtures remain the release gate. The contract is
+and fixed-block parity fixtures remain the release gate. The next implementation step is a
+deterministic decoder for the EventfulDataEdge packed-message format, followed by state-fold and
+fixed-block tests. The contract is
 `0x633bb9790d7c4c59991cebd377c0ed6501a35ebe`, from block `53,564,458`; its ABI is vendored.
