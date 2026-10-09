@@ -4,7 +4,7 @@ A Nuthatch nest for the Graph Epoch Block Oracle transport on Arbitrum One, repl
 surface of deployment `QmeqJqJTZg3xqYaYhvc35JzyB7RBqEyJeexjTBDykvxNkJ`.
 
 ```sh
-nuthatch init --from https://github.com/nightswatchhq/epoch-block-oracle-nest
+nuthatch init --from https://github.com/nuthatch-org/epoch-block-oracle-nest
 ```
 
 `ebo_data_edge_messages` provides the canonical EventfulDataEdge payload, block, timestamp, and
